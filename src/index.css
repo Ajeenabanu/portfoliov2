@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --text-xs: 0.75rem;
+  --text-sm: 0.8125rem;
+  --text-base: 0.9375rem;
+  --text-lg: 1.0625rem;
+  --text-xl: 1.1875rem;
+  --text-2xl: 1.375rem;
+  --text-3xl: 1.625rem;
+  --text-4xl: 2rem;
+  --text-5xl: 2.5rem;
+  --text-6xl: 3.25rem;
+  --text-7xl: 4rem;
+  --text-8xl: 5rem;
+  --text-9xl: 6rem;
+
+  --color-violet-50: #ffe7ef;
+  --color-violet-100: #ffc4d8;
+  --color-violet-200: #ff8fb0;
+  --color-violet-300: #ff5e8d;
+  --color-violet-400: #ff2f6d;
+  --color-violet-500: #F80153;
+}

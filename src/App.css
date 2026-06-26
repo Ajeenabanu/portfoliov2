@@ -1,0 +1,72 @@
+.hero-shell,
+.creative-shell {
+  position: relative;
+  isolation: isolate;
+}
+
+.floating-orb {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(24px);
+  opacity: 0.4;
+  animation: float-orb 12s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.floating-orb-one {
+  top: 8%;
+  left: -4%;
+  width: 16rem;
+  height: 16rem;
+  background: rgba(167, 139, 250, 0.28);
+}
+
+.floating-orb-two {
+  right: -6%;
+  top: 20%;
+  width: 19rem;
+  height: 19rem;
+  background: rgba(244, 114, 182, 0.2);
+  animation-delay: -4s;
+}
+
+.floating-orb-three {
+  bottom: -10%;
+  left: 20%;
+  width: 14rem;
+  height: 14rem;
+  background: rgba(59, 130, 246, 0.18);
+  animation-delay: -7s;
+}
+
+@keyframes float-orb {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(2rem, -1.5rem, 0) scale(1.06);
+  }
+}
+
+@media (max-width: 768px) {
+  .floating-orb {
+    opacity: 0.28;
+    filter: blur(20px);
+  }
+
+  .floating-orb-one {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .floating-orb-two {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .floating-orb-three {
+    width: 9rem;
+    height: 9rem;
+  }
+}
