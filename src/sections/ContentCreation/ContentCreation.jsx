@@ -53,8 +53,7 @@ const ContentCreation = () => {
             className="max-w-2xl"
           >
             <div className="inline-flex items-center gap-2 rounded-full border border-violet-400/30 bg-violet-500/10 px-4 py-2 text-sm font-medium text-violet-200">
-              <Sparkles className="h-4 w-4" />
-              Creator Corner
+             Content Creator
             </div>
             <h2 className="mt-5 text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl">
               A creative space for everyday stories, laughs, and real moments.

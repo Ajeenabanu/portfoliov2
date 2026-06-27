@@ -1,26 +1,24 @@
 import { motion } from 'framer-motion';
-import { Award, BadgeCheck, Sparkles } from 'lucide-react';
+import { Award, BadgeCheck } from 'lucide-react';
 import Navbar from '../../components/Navbar';
-import Footer from '../../components/Footer';
-
+import certificateImage from '../../assets/IMG_4222.jpeg';
+import mentorImage from '../../assets/IMG_4223.jpg';
+import certifigate from '../../assets/certificateget.jpg';
+import mentorImage2 from '../../assets/mentor.png';
 const achievementsList = [
   {
-    title: 'MERN Stack Development',
-    issuer: 'Certified Learning Track',
-    year: '2024',
-    description: 'Focused on building full-stack applications with React, Node.js, Express.js, and MongoDB.'
+    title: 'Certificate of Appreciation',
+    issuer: 'Srishti Innovative',
+    year: '2025',
+    description: 'Awarded for best performance in learning and development with outstanding dedication and exemplary results.',
+    image: certificateImage
   },
   {
-    title: 'React & Modern Frontend',
-    issuer: 'Frontend Certification',
-    year: '2023',
-    description: 'Strengthened core UI development skills with reusable components, responsive design, and state management.'
-  },
-  {
-    title: 'JavaScript & API Development',
-    issuer: 'Developer Certification',
-    year: '2023',
-    description: 'Covered advanced JavaScript, async workflows, and modern REST API integration practices.'
+    title: 'Best Mentor of the Year',
+    issuer: 'Srishti Innovative',
+    year: '2025',
+    description: 'Recognized for exceptional mentorship, leadership, and contribution to team growth throughout the year.',
+    image: mentorImage2
   }
 ];
 
@@ -40,15 +38,29 @@ const Achievements = () => {
           transition={{ duration: 0.55, ease: 'easeOut' }}
           className="text-center"
         >
-          {/* <div className="inline-flex items-center gap-2 rounded-full border border-violet-400/30 bg-violet-500/10 px-4 py-2 text-sm font-medium text-violet-200">
-            <Sparkles className="h-4 w-4" />
-            Achievements
-          </div> */}
           <h2 className="mt-5 text-2xl font-semibold tracking-tight text-white sm:text-3xl lg:text-4xl">
            Achievements & Certifications
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg leading-8 text-slate-300">
-A collection of professional achievements, certifications, and milestones that reflect my continuous growth as a MERN Stack Developer, technical mentor, and lifelong learner.          </p>
+A collection of professional achievements, certifications, and milestones that reflect my continuous growth as a MERN Stack Developer, technical mentor, and lifelong learner.
+          </p>
+
+          <div className="mt-10 grid gap-4 sm:grid-cols-2">
+            <div className="overflow-hidden rounded-3xl border border-white/10 bg-slate-900/80 shadow-[0_10px_60px_rgba(15,23,42,0.55)]">
+              <img
+                src={certifigate}
+                alt="Certificate of Appreciation"
+                className="h-84 w-full object-cover"
+              />
+            </div>
+            <div className="overflow-hidden rounded-3xl border border-white/10 bg-slate-900/80 shadow-[0_10px_60px_rgba(15,23,42,0.55)]">
+              <img
+                src={mentorImage}
+                alt="Best Mentor of the Year"
+                className="h-84 w-full object-cover"
+              />
+            </div>
+          </div>
         </motion.div>
 
         <div className="mt-16 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
@@ -62,7 +74,15 @@ A collection of professional achievements, certifications, and milestones that r
               whileHover={{ y: -6, scale: 1.01 }}
               className="rounded-[1.5rem] border border-white/10 bg-slate-900/70 p-6 shadow-[0_0_70px_rgba(167,139,250,0.12)] backdrop-blur-xl"
             >
-              <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-violet-400/20 bg-violet-500/10 text-violet-200">
+              <div className="overflow-hidden rounded-2xl border border-white/10 bg-slate-800/70">
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className="h-48 w-full object-cover"
+                />
+              </div>
+
+              <div className="mt-5 flex h-12 w-12 items-center justify-center rounded-2xl border border-violet-400/20 bg-violet-500/10 text-violet-200">
                 <Award className="h-6 w-6" />
               </div>
 
