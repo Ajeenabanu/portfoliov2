@@ -6,7 +6,7 @@ import profilePhoto from '../../assets/aboutimg.png';
 import Navbar from '../../components/Navbar';
 
 const stats = [
-  { value: '2.8+', label: 'Years Experience' },
+  { value: '3+', label: 'Years Experience' },
   { value: '2', label: 'Enterprise Products' },
   { value: 'MERN', label: 'Stack' },
   { value: 'Creator', label: 'Content' }

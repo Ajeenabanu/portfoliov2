@@ -8,7 +8,7 @@ Role: MERN Stack Developer
 
 Company: Srishti Innovative
 
-Experience: 2 Years 8 Months
+Experience: 3 Years
 
 Projects:
 
@@ -29,4 +29,4 @@ https://www.youtube.com/@banuajeenavlogs/videos
 
 Summary:
 
-MERN Stack Developer with 2 years 8 months of experience building scalable web applications using React, Node.js, Express.js, MongoDB, and JavaScript.
+MERN Stack Developer with 3 years of experience building scalable web applications using React, Node.js, Express.js, MongoDB, and JavaScript.

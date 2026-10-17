@@ -2,7 +2,7 @@ export const experience = [
   {
     title: 'MERN Stack Developer',
     company: 'Srishti Innovative',
-    duration: '2 Years 8 Months',
+    duration: '3 Years',
     description:
       'Built and maintained full-stack web applications using React, Node.js, Express.js, MongoDB, and JavaScript.',
     highlights: [

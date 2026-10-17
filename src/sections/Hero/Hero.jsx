@@ -14,7 +14,7 @@ const socialIcons = {
 };
 
 const metrics = [
-  { value: '2.8+', label: 'Years Experience' },
+  { value: '3+', label: 'Years Experience' },
   { value: '2', label: 'Enterprise Products' },
   { value: 'MERN', label: 'Stack' },
   { value: 'Creator', label: 'Content' }
@@ -83,7 +83,7 @@ const Hero = () => {
               </a> */}
               <a
                 href={resumePdf}
-                download
+                download="Ajeena_Banu_SN_Resume.pdf"
                 className="inline-flex items-center gap-2 rounded-full border border-violet-400/25 bg-violet-500/10 px-5 py-3 text-sm font-semibold text-violet-100 transition hover:bg-violet-500/20"
               >
                 <Download className="h-4 w-4" />
